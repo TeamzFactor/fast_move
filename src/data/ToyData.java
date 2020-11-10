@@ -2,6 +2,7 @@ package data;
 
 import base.Bike;
 import base.Parcel;
+import base.ParcelStatus;
 import base.Person;
 
 public class ToyData {
@@ -26,6 +27,16 @@ public class ToyData {
     public static Parcel[] getParcels() {
         Parcel[] parcels = new Parcel[10];
         // your code
+        Parcel pa0 = new Parcel(1,ParcelStatus.DELIVERED);
+        Parcel pa1 = new Parcel(2,ParcelStatus.DELIVERED);
+        Parcel pa2 = new Parcel(3,ParcelStatus.DELIVERED);
+        Parcel pa3 = new Parcel(4,ParcelStatus.DELIVERED);
+        Parcel pa4 = new Parcel(5,ParcelStatus.DELIVERED);
+        Parcel pa5 = new Parcel(6,ParcelStatus.DELIVERED);
+        Parcel pa6 = new Parcel(7,ParcelStatus.DELIVERED);
+        Parcel pa7 = new Parcel(8,ParcelStatus.DELIVERED);
+        Parcel pa8 = new Parcel(9,ParcelStatus.DELIVERED);
+        Parcel pa9 = new Parcel(10,ParcelStatus.DELIVERED);
         
         return parcels;
     }
