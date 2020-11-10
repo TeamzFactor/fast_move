@@ -9,21 +9,24 @@ public class ToyData {
     public static Bike[] getBikes() {
         Bike[] bikes = new Bike[3];
         // your code
-
+        
         return bikes;
     }
 
     public static Person[] getPerson() {
         Person[] person = new Person[3];
         // your code
-
+        Person p0 = new Person("Sunchai", "Trabdee");
+        Person p1 = new Person("Todsawat","Somtua");
+        Person p2 = new Person("Supphakorn","Kaika");
+        
         return person;
     }
 
     public static Parcel[] getParcels() {
         Parcel[] parcels = new Parcel[10];
         // your code
-
+        
         return parcels;
     }
 
