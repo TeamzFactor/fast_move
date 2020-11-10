@@ -1,7 +1,7 @@
 
 /* 
 ใน class ToyData
-1. สร้าง Bike เก็บไว้ 3 bike
+1. สร้าง Bike เก็บไว้ 3 bikes
 2. สร้าง Person เก็บไว้ 3 persons
 3. สร้าง Parcel เก็บไว้ 10 parcels
 */
